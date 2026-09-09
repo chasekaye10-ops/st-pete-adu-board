@@ -1,0 +1,1167 @@
+{
+  "date": "2026-09-09",
+  "startedAt": "2026-09-09T12:54:14.487Z",
+  "completedAt": "2026-09-09T12:54:27.768Z",
+  "mode": "wide",
+  "gateReason": "Parcel self-test passed; fewer than three new eligible narrow candidates",
+  "dryRun": false,
+  "parcelSelfTest": {
+    "ok": true,
+    "parcel": {
+      "adu": "yes",
+      "ambiguous": false,
+      "checkedAt": "2026-09-09T12:54:14.912Z",
+      "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271521%2512TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json",
+      "returnedCount": 1,
+      "matchedAddress": "1521  12TH ST S",
+      "zoning": "NT-2",
+      "reason": "NT Zoning and Greater or equal to 4,500 sq. ft.",
+      "criteria": "Meets criteria for ADU",
+      "lotSf": 6225.23341117
+    },
+    "passed": true
+  },
+  "sources": [
+    {
+      "mode": "narrow",
+      "candidates": [
+        {
+          "address": "2563 13th Ave S",
+          "price": 275000,
+          "houseSf": 1338,
+          "maxAdu": 800,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2563-13th-ave-s/pid_68415184/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-09-09T12:54:18.046Z",
+          "snippet": ""
+        },
+        {
+          "address": "980 13TH AVENUE S",
+          "price": 289000,
+          "houseSf": 1200,
+          "maxAdu": 800,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/980-13th-ave-s-saint-petersburg-fl-33705-81389704",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+          "fetchedAt": "2026-09-09T12:54:16.696Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2006;eightBitItem|traditional:Price/Sqft:$241;"
+        },
+        {
+          "address": "4227 2ND AVENUE S",
+          "price": 310000,
+          "houseSf": 1820,
+          "maxAdu": 800,
+          "bedsBaths": "3/1.5",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4227-2nd-ave-s-saint-petersburg-fl-33711-47141959",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1932;eightBitItem|traditional:Price/Sqft:$170;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "4219 5TH AVENUE N",
+          "price": 365000,
+          "houseSf": 1950,
+          "maxAdu": 800,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4219-5th-ave-n-saint-petersburg-fl-33713-47088190",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$187;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "3720 4TH AVENUE N",
+          "price": 379900,
+          "houseSf": 1196,
+          "maxAdu": 800,
+          "bedsBaths": "2/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3720-4th-ave-n-saint-petersburg-fl-33713-47151680",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1936;eightBitItem|traditional:Price/Sqft:$318;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "2580 11th Ave S",
+          "price": 379990,
+          "houseSf": 1246,
+          "maxAdu": 800,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2580-11th-ave-s/pid_73080350/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-09-09T12:54:18.046Z",
+          "snippet": ""
+        },
+        {
+          "address": "1618 12TH STREET S",
+          "price": 390000,
+          "houseSf": 1545,
+          "maxAdu": 800,
+          "bedsBaths": "4/2.5",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/1618-12th-st-s-saint-petersburg-fl-33705-47181793",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+          "fetchedAt": "2026-09-09T12:54:16.696Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1920;eightBitItem|traditional:Price/Sqft:$252;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "4110 3RD AVENUE S",
+          "price": 399900,
+          "houseSf": 1237,
+          "maxAdu": 800,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4110-3rd-ave-s-saint-petersburg-fl-33711-47141914",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1951;eightBitItem|traditional:Price/Sqft:$323;"
+        },
+        {
+          "address": "4026 4TH AVENUE S",
+          "price": 400000,
+          "houseSf": 1673,
+          "maxAdu": 800,
+          "bedsBaths": "4/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4026-4th-ave-s-saint-petersburg-fl-33711-47141872",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1930;eightBitItem|traditional:Lot Size:0.26 acres;eightBitItem|traditional:Price/Sqft:$239;"
+        },
+        {
+          "address": "4660 7TH AVENUE N",
+          "price": 420000,
+          "houseSf": 1210,
+          "maxAdu": 800,
+          "bedsBaths": "2/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4660-7th-ave-n-saint-petersburg-fl-33713-47094431",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$347;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "4120 BURLINGTON AVENUE N",
+          "price": 436900,
+          "houseSf": 1503,
+          "maxAdu": 800,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4120-burlington-ave-n-saint-petersburg-fl-33713-47151349",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1947;eightBitItem|traditional:Price/Sqft:$291;"
+        },
+        {
+          "address": "2550 10th Ave S",
+          "price": 275000,
+          "houseSf": 1180,
+          "maxAdu": 791,
+          "bedsBaths": "4/2",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2550-10th-ave-s/pid_72219629/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-09-09T12:54:18.046Z",
+          "snippet": ""
+        },
+        {
+          "address": "4730 BURLINGTON AVENUE N",
+          "price": 420000,
+          "houseSf": 1166,
+          "maxAdu": 781,
+          "bedsBaths": "2/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4730-burlington-ave-n-saint-petersburg-fl-33713-47141518",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$360;"
+        },
+        {
+          "address": "1532 13TH STREET S",
+          "price": 305000,
+          "houseSf": 1156,
+          "maxAdu": 775,
+          "bedsBaths": "3/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/1532-13th-st-s-saint-petersburg-fl-33705-81409354",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+          "fetchedAt": "2026-09-09T12:54:16.696Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1934;eightBitItem|traditional:Price/Sqft:$264;"
+        },
+        {
+          "address": "3731 6TH AVENUE N",
+          "price": 420000,
+          "houseSf": 1143,
+          "maxAdu": 766,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3731-6th-ave-n-saint-petersburg-fl-33713-47088045",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/2_p/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$367;"
+        },
+        {
+          "address": "3731 6TH AVENUE N",
+          "price": 420000,
+          "houseSf": 1143,
+          "maxAdu": 766,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3731-6th-ave-n-saint-petersburg-fl-33713-380860423",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/2_p/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$367;"
+        },
+        {
+          "address": "4411 3RD AVENUE S",
+          "price": 339000,
+          "houseSf": 1114,
+          "maxAdu": 746,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4411-3rd-ave-s-saint-petersburg-fl-33711-47142086",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1938;eightBitItem|traditional:Price/Sqft:$304;"
+        },
+        {
+          "address": "3500 6TH AVENUE N",
+          "price": 424777,
+          "houseSf": 1089,
+          "maxAdu": 730,
+          "bedsBaths": "3/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3500-6th-ave-n-saint-petersburg-fl-33713-47087801",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$390;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "4263 5TH AVENUE N",
+          "price": 324900,
+          "houseSf": 1056,
+          "maxAdu": 708,
+          "bedsBaths": "2/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4263-5th-ave-n-saint-petersburg-fl-33713-47088185",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1927;eightBitItem|traditional:Price/Sqft:$308;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "3468 9TH AVENUE N",
+          "price": 380000,
+          "houseSf": 1030,
+          "maxAdu": 690,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3468-9th-ave-n-saint-petersburg-fl-33713-47087715",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/2_p/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1953;eightBitItem|traditional:Price/Sqft:$369;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "2717 13th Ave S",
+          "price": 194999,
+          "houseSf": 1020,
+          "maxAdu": 683,
+          "bedsBaths": "3/1",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2717-13th-ave-s/pid_70548369/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-09-09T12:54:18.046Z",
+          "snippet": ""
+        },
+        {
+          "address": "3611 3RD AVENUE S",
+          "price": 275000,
+          "houseSf": 968,
+          "maxAdu": 649,
+          "bedsBaths": "3/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3611-3rd-ave-s-saint-petersburg-fl-33711-47152203",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1971;eightBitItem|traditional:Price/Sqft:$284;"
+        },
+        {
+          "address": "3620 BURLINGTON AVENUE N",
+          "price": 399900,
+          "houseSf": 936,
+          "maxAdu": 627,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3620-burlington-ave-n-saint-petersburg-fl-33713-47151858",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$427;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "address": "3920 5TH AVENUE N",
+          "price": 349000,
+          "houseSf": 884,
+          "maxAdu": 592,
+          "bedsBaths": "2/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/3920-5th-ave-n-saint-petersburg-fl-33713-47151890",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$395;"
+        },
+        {
+          "address": "1521 12TH STREET S",
+          "price": 199999,
+          "houseSf": 871,
+          "maxAdu": 584,
+          "bedsBaths": "3/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/1521-12th-st-s-saint-petersburg-fl-33705-81399010",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+          "fetchedAt": "2026-09-09T12:54:16.696Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$230;"
+        },
+        {
+          "address": "4016 9TH AVENUE N",
+          "price": 378500,
+          "houseSf": 820,
+          "maxAdu": 549,
+          "bedsBaths": "2/1",
+          "propertyType": "single_family",
+          "source": "Trulia",
+          "sourceUrl": "https://www.trulia.com/home/4016-9th-ave-n-saint-petersburg-fl-33713-47088082",
+          "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1957;eightBitItem|traditional:Price/Sqft:$462;eightBitItem|traditional:Parking:Garage;"
+        }
+      ],
+      "sources": [
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-09-09T12:54:15.232Z",
+          "candidates": [
+            {
+              "address": "3920 5TH AVENUE N",
+              "price": 349000,
+              "houseSf": 884,
+              "maxAdu": 592,
+              "bedsBaths": "2/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3920-5th-ave-n-saint-petersburg-fl-33713-47151890",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$395;"
+            },
+            {
+              "address": "3611 3RD AVENUE S",
+              "price": 275000,
+              "houseSf": 968,
+              "maxAdu": 649,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3611-3rd-ave-s-saint-petersburg-fl-33711-47152203",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1971;eightBitItem|traditional:Price/Sqft:$284;"
+            },
+            {
+              "address": "3620 BURLINGTON AVENUE N",
+              "price": 399900,
+              "houseSf": 936,
+              "maxAdu": 627,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3620-burlington-ave-n-saint-petersburg-fl-33713-47151858",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$427;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4110 3RD AVENUE S",
+              "price": 399900,
+              "houseSf": 1237,
+              "maxAdu": 800,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4110-3rd-ave-s-saint-petersburg-fl-33711-47141914",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1951;eightBitItem|traditional:Price/Sqft:$323;"
+            },
+            {
+              "address": "4227 2ND AVENUE S",
+              "price": 310000,
+              "houseSf": 1820,
+              "maxAdu": 800,
+              "bedsBaths": "3/1.5",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4227-2nd-ave-s-saint-petersburg-fl-33711-47141959",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1932;eightBitItem|traditional:Price/Sqft:$170;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4263 5TH AVENUE N",
+              "price": 324900,
+              "houseSf": 1056,
+              "maxAdu": 708,
+              "bedsBaths": "2/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4263-5th-ave-n-saint-petersburg-fl-33713-47088185",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1927;eightBitItem|traditional:Price/Sqft:$308;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4219 5TH AVENUE N",
+              "price": 365000,
+              "houseSf": 1950,
+              "maxAdu": 800,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4219-5th-ave-n-saint-petersburg-fl-33713-47088190",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$187;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4660 7TH AVENUE N",
+              "price": 420000,
+              "houseSf": 1210,
+              "maxAdu": 800,
+              "bedsBaths": "2/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4660-7th-ave-n-saint-petersburg-fl-33713-47094431",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$347;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4730 BURLINGTON AVENUE N",
+              "price": 420000,
+              "houseSf": 1166,
+              "maxAdu": 781,
+              "bedsBaths": "2/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4730-burlington-ave-n-saint-petersburg-fl-33713-47141518",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$360;"
+            },
+            {
+              "address": "4142 6TH AVENUE N",
+              "price": 290000,
+              "houseSf": 756,
+              "maxAdu": 507,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4142-6th-ave-n-saint-petersburg-fl-33713-47088198",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Price/Sqft:$384;"
+            },
+            {
+              "address": "3500 6TH AVENUE N",
+              "price": 424777,
+              "houseSf": 1089,
+              "maxAdu": 730,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3500-6th-ave-n-saint-petersburg-fl-33713-47087801",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$390;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4016 9TH AVENUE N",
+              "price": 378500,
+              "houseSf": 820,
+              "maxAdu": 549,
+              "bedsBaths": "2/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4016-9th-ave-n-saint-petersburg-fl-33713-47088082",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1957;eightBitItem|traditional:Price/Sqft:$462;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4627 1ST AVENUE N",
+              "price": 355000,
+              "houseSf": 768,
+              "maxAdu": 515,
+              "bedsBaths": "2/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4627-1st-ave-n-saint-petersburg-fl-33713-47141573",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1936;eightBitItem|traditional:Price/Sqft:$462;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4411 3RD AVENUE S",
+              "price": 339000,
+              "houseSf": 1114,
+              "maxAdu": 746,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4411-3rd-ave-s-saint-petersburg-fl-33711-47142086",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1938;eightBitItem|traditional:Price/Sqft:$304;"
+            },
+            {
+              "address": "4120 BURLINGTON AVENUE N",
+              "price": 436900,
+              "houseSf": 1503,
+              "maxAdu": 800,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4120-burlington-ave-n-saint-petersburg-fl-33713-47151349",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1947;eightBitItem|traditional:Price/Sqft:$291;"
+            },
+            {
+              "address": "3720 4TH AVENUE N",
+              "price": 379900,
+              "houseSf": 1196,
+              "maxAdu": 800,
+              "bedsBaths": "2/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3720-4th-ave-n-saint-petersburg-fl-33713-47151680",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1936;eightBitItem|traditional:Price/Sqft:$318;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "4026 4TH AVENUE S",
+              "price": 400000,
+              "houseSf": 1673,
+              "maxAdu": 800,
+              "bedsBaths": "4/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/4026-4th-ave-s-saint-petersburg-fl-33711-47141872",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1930;eightBitItem|traditional:Lot Size:0.26 acres;eightBitItem|traditional:Price/Sqft:$239;"
+            },
+            {
+              "address": "3468 9TH AVENUE N",
+              "price": 380000,
+              "houseSf": 1030,
+              "maxAdu": 690,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3468-9th-ave-n-saint-petersburg-fl-33713-47087715",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/2_p/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1953;eightBitItem|traditional:Price/Sqft:$369;eightBitItem|traditional:Parking:Garage;"
+            },
+            {
+              "address": "3731 6TH AVENUE N",
+              "price": 420000,
+              "houseSf": 1143,
+              "maxAdu": 766,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3731-6th-ave-n-saint-petersburg-fl-33713-47088045",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/2_p/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$367;"
+            },
+            {
+              "address": "3731 6TH AVENUE N",
+              "price": 420000,
+              "houseSf": 1143,
+              "maxAdu": 766,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/3731-6th-ave-n-saint-petersburg-fl-33713-380860423",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/2_p/",
+              "fetchedAt": "2026-09-09T12:54:15.232Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$367;"
+            }
+          ],
+          "failure": null,
+          "pagesFetched": 2,
+          "rejected": 18
+        },
+        {
+          "source": "Homes.com",
+          "url": "https://www.homes.com/saint-petersburg-fl/central-oak-park-neighborhood/houses-for-sale/",
+          "fetchedAt": "2026-09-09T12:54:16.544Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+          "fetchedAt": "2026-09-09T12:54:16.696Z",
+          "candidates": [
+            {
+              "address": "1521 12TH STREET S",
+              "price": 199999,
+              "houseSf": 871,
+              "maxAdu": 584,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/1521-12th-st-s-saint-petersburg-fl-33705-81399010",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+              "fetchedAt": "2026-09-09T12:54:16.696Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$230;"
+            },
+            {
+              "address": "980 13TH AVENUE S",
+              "price": 289000,
+              "houseSf": 1200,
+              "maxAdu": 800,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/980-13th-ave-s-saint-petersburg-fl-33705-81389704",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+              "fetchedAt": "2026-09-09T12:54:16.696Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2006;eightBitItem|traditional:Price/Sqft:$241;"
+            },
+            {
+              "address": "1532 13TH STREET S",
+              "price": 305000,
+              "houseSf": 1156,
+              "maxAdu": 775,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/1532-13th-st-s-saint-petersburg-fl-33705-81409354",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+              "fetchedAt": "2026-09-09T12:54:16.696Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1934;eightBitItem|traditional:Price/Sqft:$264;"
+            },
+            {
+              "address": "1618 12TH STREET S",
+              "price": 390000,
+              "houseSf": 1545,
+              "maxAdu": 800,
+              "bedsBaths": "4/2.5",
+              "propertyType": "single_family",
+              "source": "Trulia",
+              "sourceUrl": "https://www.trulia.com/home/1618-12th-st-s-saint-petersburg-fl-33705-47181793",
+              "indexUrl": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+              "fetchedAt": "2026-09-09T12:54:16.696Z",
+              "snippet": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1920;eightBitItem|traditional:Price/Sqft:$252;eightBitItem|traditional:Parking:Garage;"
+            }
+          ],
+          "failure": null,
+          "pagesFetched": 1,
+          "rejected": 3
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/thirteenth-st-heights-saint-petersburg-fl/",
+          "fetchedAt": "2026-09-09T12:54:17.421Z",
+          "candidates": [],
+          "failure": "No supported listing records; page format or access needs verification",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Coldwell Banker",
+          "url": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-09-09T12:54:18.046Z",
+          "candidates": [
+            {
+              "address": "2329 15th Ave S",
+              "price": 225000,
+              "houseSf": 780,
+              "maxAdu": 523,
+              "bedsBaths": "2/1",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2329-15th-ave-s/pid_73222045/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-09-09T12:54:18.046Z",
+              "snippet": ""
+            },
+            {
+              "address": "2580 11th Ave S",
+              "price": 379990,
+              "houseSf": 1246,
+              "maxAdu": 800,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2580-11th-ave-s/pid_73080350/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-09-09T12:54:18.046Z",
+              "snippet": ""
+            },
+            {
+              "address": "2550 10th Ave S",
+              "price": 275000,
+              "houseSf": 1180,
+              "maxAdu": 791,
+              "bedsBaths": "4/2",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2550-10th-ave-s/pid_72219629/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-09-09T12:54:18.046Z",
+              "snippet": ""
+            },
+            {
+              "address": "2717 13th Ave S",
+              "price": 194999,
+              "houseSf": 1020,
+              "maxAdu": 683,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2717-13th-ave-s/pid_70548369/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-09-09T12:54:18.046Z",
+              "snippet": ""
+            },
+            {
+              "address": "2563 13th Ave S",
+              "price": 275000,
+              "houseSf": 1338,
+              "maxAdu": 800,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2563-13th-ave-s/pid_68415184/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-09-09T12:54:18.046Z",
+              "snippet": ""
+            }
+          ],
+          "failure": null,
+          "pagesFetched": 1,
+          "rejected": 3
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg,Historic_Kenwood/",
+          "fetchedAt": "2026-09-09T12:54:18.822Z",
+          "candidates": [],
+          "failure": "Response exceeds 2000000 bytes",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Homes.com",
+          "url": "https://www.homes.com/saint-petersburg-fl/historic-kenwood-neighborhood/houses-for-sale/",
+          "fetchedAt": "2026-09-09T12:54:19.501Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        }
+      ],
+      "truncated": true
+    },
+    {
+      "mode": "wide",
+      "candidates": [],
+      "sources": [
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg/33705/",
+          "fetchedAt": "2026-09-09T12:54:23.441Z",
+          "candidates": [],
+          "failure": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      32,\n      \"price\",\n      \"currencyCode\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/saint-petersburg-fl-33705/",
+          "fetchedAt": "2026-09-09T12:54:24.389Z",
+          "candidates": [],
+          "failure": "No supported listing records; page format or access needs verification",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg/33712/",
+          "fetchedAt": "2026-09-09T12:54:24.922Z",
+          "candidates": [],
+          "failure": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      0,\n      \"location\",\n      \"streetAddress\"\n    ],\n    \"message\": \"Expected string, received null\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      6,\n      \"location\",\n      \"streetAddress\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/saint-petersburg-fl-33712/",
+          "fetchedAt": "2026-09-09T12:54:25.777Z",
+          "candidates": [],
+          "failure": "No supported listing records; page format or access needs verification",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg/33713/",
+          "fetchedAt": "2026-09-09T12:54:26.454Z",
+          "candidates": [],
+          "failure": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"number\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      5,\n      \"price\",\n      \"price\"\n    ],\n    \"message\": \"Required\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      5,\n      \"price\",\n      \"currencyCode\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/saint-petersburg-fl-33713/",
+          "fetchedAt": "2026-09-09T12:54:27.278Z",
+          "candidates": [],
+          "failure": "No supported listing records; page format or access needs verification",
+          "pagesFetched": 1,
+          "rejected": 0
+        }
+      ],
+      "truncated": false
+    }
+  ],
+  "queriedAddresses": 25,
+  "matchedAddresses": 23,
+  "newEligibleNarrow": 0,
+  "changes": [
+    {
+      "id": "listing-babcc6ff723a",
+      "address": "980 13th Ave S",
+      "field": "price",
+      "before": 300000,
+      "after": 289000
+    },
+    {
+      "id": "listing-babcc6ff723a",
+      "address": "980 13th Ave S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-babcc6ff723a",
+      "address": "980 13th Ave S",
+      "field": "lifecycle",
+      "before": "needs_verification",
+      "after": "active"
+    },
+    {
+      "id": "listing-babcc6ff723a",
+      "address": "980 13th Ave S",
+      "field": "lotSf",
+      "before": 5729,
+      "after": 5729.07183264
+    },
+    {
+      "id": "listing-6c47f9f2b47f",
+      "address": "4227 2nd Ave S",
+      "field": "lotSf",
+      "before": 8370,
+      "after": 8369.82567238
+    },
+    {
+      "id": "listing-9321a592d9f1",
+      "address": "3720 4th Ave N",
+      "field": "lotSf",
+      "before": 5715,
+      "after": 5714.95744593
+    },
+    {
+      "id": "listing-cc9c4f1d6eb7",
+      "address": "1618 12th St S",
+      "field": "bedsBaths",
+      "before": "4/3",
+      "after": "4/2.5"
+    },
+    {
+      "id": "listing-cc9c4f1d6eb7",
+      "address": "1618 12th St S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-cc9c4f1d6eb7",
+      "address": "1618 12th St S",
+      "field": "lifecycle",
+      "before": "needs_verification",
+      "after": "active"
+    },
+    {
+      "id": "listing-cc9c4f1d6eb7",
+      "address": "1618 12th St S",
+      "field": "lotSf",
+      "before": 6072,
+      "after": 6071.91810902
+    },
+    {
+      "id": "listing-fe7b0ee6ceb2",
+      "address": "4110 3rd Ave S",
+      "field": "lotSf",
+      "before": 6350,
+      "after": 6349.9995483
+    },
+    {
+      "id": "listing-427c5d658146",
+      "address": "4026 4th Ave S",
+      "field": "price",
+      "before": 425000,
+      "after": 400000
+    },
+    {
+      "id": "listing-427c5d658146",
+      "address": "4026 4th Ave S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-427c5d658146",
+      "address": "4026 4th Ave S",
+      "field": "lotSf",
+      "before": 11430,
+      "after": 11429.9690693
+    },
+    {
+      "id": "listing-f152ef36c207",
+      "address": "4660 7th Ave N",
+      "field": "price",
+      "before": 425000,
+      "after": 420000
+    },
+    {
+      "id": "listing-f152ef36c207",
+      "address": "4660 7th Ave N",
+      "field": "lotSf",
+      "before": 7232,
+      "after": 7231.80847796
+    },
+    {
+      "id": "listing-758c7d94eaa0",
+      "address": "4120 Burlington Ave N",
+      "field": "lotSf",
+      "before": 5625,
+      "after": 5625.10946944
+    },
+    {
+      "id": "listing-65bf2e83fb1e",
+      "address": "2550 10th Ave S",
+      "field": "bedsBaths",
+      "before": "4/1.5",
+      "after": "4/2"
+    },
+    {
+      "id": "listing-65bf2e83fb1e",
+      "address": "2550 10th Ave S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-65bf2e83fb1e",
+      "address": "2550 10th Ave S",
+      "field": "lotSf",
+      "before": 6240,
+      "after": 6239.98945925
+    },
+    {
+      "id": "listing-4bc62aabff0f",
+      "address": "4730 Burlington Ave N",
+      "field": "price",
+      "before": 430000,
+      "after": 420000
+    },
+    {
+      "id": "listing-4bc62aabff0f",
+      "address": "4730 Burlington Ave N",
+      "field": "lotSf",
+      "before": 5518,
+      "after": 5518.38095886
+    },
+    {
+      "id": "listing-8a264d96fdf6",
+      "address": "1532 13th St S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-8a264d96fdf6",
+      "address": "1532 13th St S",
+      "field": "lifecycle",
+      "before": "needs_verification",
+      "after": "active"
+    },
+    {
+      "id": "listing-8a264d96fdf6",
+      "address": "1532 13th St S",
+      "field": "lotSf",
+      "before": 6617,
+      "after": 6616.65824757
+    },
+    {
+      "id": "listing-73ad9fe8d320",
+      "address": "3731 6th Ave N",
+      "field": "lotSf",
+      "before": 7102,
+      "after": 7101.78197764
+    },
+    {
+      "id": "listing-33284dee7314",
+      "address": "4411 3rd Ave S",
+      "field": "lotSf",
+      "before": 6000,
+      "after": 5999.99575085
+    },
+    {
+      "id": "listing-594da7031f8f",
+      "address": "3500 6th Ave N",
+      "field": "lotSf",
+      "before": 8259,
+      "after": 8258.63056398
+    },
+    {
+      "id": "listing-bf648e9eb286",
+      "address": "2717 13th Ave S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-bf648e9eb286",
+      "address": "2717 13th Ave S",
+      "field": "lifecycle",
+      "before": "needs_verification",
+      "after": "active"
+    },
+    {
+      "id": "listing-bf648e9eb286",
+      "address": "2717 13th Ave S",
+      "field": "lotSf",
+      "before": 5913,
+      "after": 5913.03141653
+    },
+    {
+      "id": "listing-ceab70962710",
+      "address": "3611 3rd Ave S",
+      "field": "lotSf",
+      "before": 6265,
+      "after": 6265.48130183
+    },
+    {
+      "id": "listing-45bb1cde14df",
+      "address": "3620 Burlington Ave N",
+      "field": "lotSf",
+      "before": 5969,
+      "after": 5968.82124497
+    },
+    {
+      "id": "listing-6574440730db",
+      "address": "1521 12th St S",
+      "field": "adu",
+      "before": "unknown",
+      "after": "yes"
+    },
+    {
+      "id": "listing-6574440730db",
+      "address": "1521 12th St S",
+      "field": "lotSf",
+      "before": 6225,
+      "after": 6225.23341117
+    }
+  ],
+  "failures": [
+    "Homes.com: HTTP 403",
+    "Zillow: No supported listing records; page format or access needs verification",
+    "Trulia: Response exceeds 2000000 bytes",
+    "narrow: candidate cap reached",
+    "2563 13th Ave S: Unrecognized or missing CRITERIA verdict",
+    "Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "2580 11th Ave S: Unrecognized or missing CRITERIA verdict",
+    "Trulia: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      32,\n      \"price\",\n      \"currencyCode\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
+    "Trulia: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      0,\n      \"location\",\n      \"streetAddress\"\n    ],\n    \"message\": \"Expected string, received null\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      6,\n      \"location\",\n      \"streetAddress\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]",
+    "Trulia: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"number\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      5,\n      \"price\",\n      \"price\"\n    ],\n    \"message\": \"Required\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"props\",\n      \"searchData\",\n      \"homes\",\n      5,\n      \"price\",\n      \"currencyCode\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
+    "Parcel unavailable for 2563 13th Ave S: Unrecognized or missing CRITERIA verdict",
+    "Analysis unavailable for 2563 13th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 980 13th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4227 2nd Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4219 5th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3720 4th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Parcel unavailable for 2580 11th Ave S: Unrecognized or missing CRITERIA verdict",
+    "Analysis unavailable for 2580 11th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 1618 12th St S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4110 3rd Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4026 4th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4660 7th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4120 Burlington Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 2550 10th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4730 Burlington Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 1532 13th St S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3731 6th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4411 3rd Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3500 6th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4263 5th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3468 9th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 2717 13th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3611 3rd Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3620 Burlington Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 3920 5th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 1521 12th St S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 4016 9th Ave N: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL"
+  ],
+  "stateChanged": true,
+  "delistingEvaluated": false
+}
