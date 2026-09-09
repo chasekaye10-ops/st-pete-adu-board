@@ -3,3 +3,8 @@
 node_modules/
 site/
 .env
+.env.*
+.DS_Store
+input/boarddata.json
+data/.scan-lock/
+data/runs/*.tmp

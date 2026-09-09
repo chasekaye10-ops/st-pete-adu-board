@@ -1,0 +1,28 @@
+name: Validate ADU dashboard
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: adu-board-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run test:schedule
+      - run: npm run typecheck
+      - run: npm run build
+        env:
+          ADU_SCHEDULE_ENABLED: ${{ vars.ADU_SCHEDULE_ENABLED }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-preview
+          path: site

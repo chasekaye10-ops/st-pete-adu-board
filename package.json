@@ -4,11 +4,21 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "check:sources": "node --import tsx src/cli/check-sources.ts",
+    "scan": "node --import tsx src/cli/scan.ts",
+    "build": "node --import tsx src/cli/render.ts",
+    "test:schedule": "node --test tests/scripts/is-six-am-et.test.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
     "typescript": "^5.0.0",
     "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "openai": "^7.12.1",
+    "zod": "^3.0.0"
   }
 }
