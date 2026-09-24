@@ -1,5 +1,8 @@
 name: Daily ADU scan
 on:
+  push:
+    branches: [main]
+    paths: ['src/**', 'scripts/**', '.github/workflows/daily-scan.yml', 'package*.json']
   schedule:
     - cron: '0 10,11 * * *'
   workflow_dispatch:
@@ -10,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   scan:
-    if: github.event_name == 'workflow_dispatch' || vars.ADU_SCHEDULE_ENABLED == 'true'
+    if: github.event_name != 'schedule' || vars.ADU_SCHEDULE_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -22,24 +25,24 @@ jobs:
           node-version: '22'
           cache: npm
       - id: time
-        name: Check Eastern time
+        name: Check whether today’s Eastern scan is due
         run: echo "proceed=$(node scripts/is-six-am-et.mjs)" >> "$GITHUB_OUTPUT"
-      - if: steps.time.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
+      - if: steps.time.outputs.proceed == 'true'
         run: npm ci
-      - if: steps.time.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
+      - if: steps.time.outputs.proceed == 'true'
         run: |
           npm test
           npm run test:schedule
           npm run typecheck
-      - if: steps.time.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
+      - if: steps.time.outputs.proceed == 'true'
         run: npm run scan -- --no-ai
-      - if: steps.time.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
+      - if: steps.time.outputs.proceed == 'true'
         run: |
           npm test
           npm run build
         env:
           ADU_SCHEDULE_ENABLED: ${{ vars.ADU_SCHEDULE_ENABLED }}
-      - if: steps.time.outputs.proceed == 'true' || github.event_name == 'workflow_dispatch'
+      - if: steps.time.outputs.proceed == 'true'
         name: Save validated board and reports
         run: |
           git config user.name "github-actions[bot]"

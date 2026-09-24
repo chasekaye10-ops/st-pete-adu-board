@@ -95,3 +95,19 @@ it('reports no deltas and keeps price history for an unchanged price observation
   expect(result.changes).toEqual([]);
   expect(result.state.listings[0].history).toEqual(previous().listings[0].history);
 });
+
+it.each(['fresh', 'failed', 'missing'] as const)('keeps pending eligible properties pending with %s parcel evidence', kind => {
+  const state = previous(); state.listings[0].lifecycle = 'needs_verification';
+  const item = observation();
+  if (kind === 'fresh') item.parcel = { adu: 'yes', criteria: 'Meets criteria for ADU',
+    matchedAddress: item.candidate.address, ambiguous: false, checkedAt: '2026-09-09', url: 'https://example.org/parcel' };
+  if (kind === 'failed') item.parcel = { adu: 'unknown', ambiguous: false, checkedAt: '2026-09-09', error: 'Timeout' };
+  expect(mergeScan(state, [item], '2026-09-09').state.listings[0].lifecycle).toBe('needs_verification');
+});
+it('requires cited targeted active confirmation to promote a pending property', () => {
+  const state = previous(); state.listings[0].lifecycle = 'needs_verification';
+  expect(mergeScan(state, [observation({ statusConfirmation: 'active' })], '2026-09-09')
+    .state.listings[0].lifecycle).toBe('needs_verification');
+  expect(mergeScan(state, [observation({ statusConfirmation: 'active', statusSourceUrl: 'https://example.org/status' })], '2026-09-09')
+    .state.listings[0].lifecycle).toBe('active');
+});

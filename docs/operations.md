@@ -49,10 +49,21 @@ The import regression checks the 112 preserved legacy evidence records, allowing
 current inventory and prices to change while still detecting loss of the original
 board. Source-specific limits and observed availability are in `docs/sources.md`.
 
-## Not yet enabled
+## Hosted service
 
-This command is manually runnable. No GitHub schedule, deployment, or hosted
-dashboard has been enabled. Those are subsequent plan tasks.
+The public dashboard is https://st-pete-adu-board.pages.dev/ and its repository is
+`chasekaye10-ops/st-pete-adu-board`. Cloudflare publishes the generated `site`
+directory. GitHub Actions runs the scanner without paid model calls.
+
+The schedule targets 06:00 America/New_York. A delayed job remains eligible after
+06:00 if that Eastern date has no saved report. The report is the once-per-day
+guard; duplicate scheduled or manual invocations skip a completed date.
+
+The initial September 9 cloud scan passed the parcel self-test and published
+four price changes with 23 exact parcel matches. The original exact-hour gate
+subsequently skipped delayed scheduled jobs. The September 24 repair replaces
+that gate with the date-based check. Check Actions and the public last-scan date
+to verify a recent successful run; an enabled flag alone is not run evidence.
 
 ## First preview
 

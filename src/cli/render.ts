@@ -19,6 +19,9 @@ if (runPath && runPath !== '-') {
   run = value;
 }
 await mkdir(dirname(output), { recursive: true });
-await writeFile(output, renderDashboard(state, run, process.env.ADU_SCHEDULE_ENABLED === 'true'), 'utf8');
+// This deployed repository has an enabled daily schedule. Cloudflare does not
+// inherit GitHub repository variables; allow an explicit false override when paused.
+const scheduled = process.env.ADU_SCHEDULE_ENABLED !== 'false';
+await writeFile(output, renderDashboard(state, run, scheduled), 'utf8');
 await writeFile(`${dirname(output)}/.nojekyll`, '', 'utf8');
 console.log(`Built ${output} from ${state.listings.length} properties${run ? ` and the ${run.date} report` : ' (imported snapshot)'}.`);

@@ -115,7 +115,6 @@ export function mergeScan(previous: BoardState, observations: Observation[], run
     if (status && !(status === 'active' && row.lifecycle === 'ruled_out')) {
       row.lifecycle = status === 'active' ? (row.adu === 'no' ? 'ruled_out' : row.adu === 'yes' ? 'active' : 'needs_verification') : status;
     } else if (row.adu === 'no' && row.lifecycle !== 'gone' && row.lifecycle !== 'under_contract') row.lifecycle = 'ruled_out';
-    else if (row.lifecycle === 'needs_verification' && row.adu === 'yes') row.lifecycle = 'active';
     if (row.price > 437000 && row.lifecycle === 'active') row.lifecycle = 'needs_verification';
     for (const item of group) {
       const candidate = item.candidate;

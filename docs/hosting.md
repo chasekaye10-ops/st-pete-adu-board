@@ -12,7 +12,7 @@ root, `input`, or `data` as the build output directory.
 - Build command: `npm test && npm run test:schedule && npm run typecheck && npm run build`
 - Build output directory: `site`
 - Node version: 22 (set `NODE_VERSION` if needed)
-- Keep `ADU_SCHEDULE_ENABLED` unset until the daily scan is accepted.
+- The daily schedule was enabled after the first cloud scan was published.
 
 Cloudflare builds on repository commits. The daily GitHub workflow saves validated
 state and reports to the repository; verify that its first automated commit
@@ -30,5 +30,7 @@ Source failures and unverified listing status must remain visible.
 
 Run at 06:00 America/New_York using two UTC triggers and the checked-in DST guard.
 GitHub schedules may be delayed; this is a target time, not an exact-time guarantee.
-Cloudflare's `ADU_SCHEDULE_ENABLED` build variable must match the accepted GitHub
-schedule setting, so the public dashboard does not claim inactive automation.
+The renderer defaults to the accepted enabled schedule when Cloudflare has no
+`ADU_SCHEDULE_ENABLED` variable. To pause the service, set GitHub's repository
+variable and Cloudflare's build variable to `false`, then rebuild the site.
+The public last-scan date indicates actual freshness independently of that label.
