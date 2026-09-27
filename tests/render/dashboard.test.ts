@@ -3,7 +3,16 @@ import { load } from 'cheerio';
 import { expect, it } from 'vitest';
 import { renderDashboard } from '../../src/render/dashboard.js';
 import { validateState } from '../../src/domain/state.js';
-const state = () => validateState(JSON.parse(readFileSync('data/state.json', 'utf8')));
+import { importLegacy, parseLegacyRows } from '../../src/import/legacy.js';
+const liveState = () => validateState(JSON.parse(readFileSync('data/state.json', 'utf8')));
+// Layout expectations describe the preserved import, not the changing daily inventory.
+const state = () => {
+  const current = liveState();
+  const rows = parseLegacyRows(current.listings.flatMap(row => row.evidence
+    .filter(item => item.kind === 'legacyNote' && item.legacyNote)
+    .map(item => item.legacyNote)));
+  return importLegacy(rows, current.importedAt);
+};
 it('leads with the buy candidate, then inventory, comps and archive', () => {
   const html = renderDashboard(state(), null);
   const $ = load(html);
@@ -15,6 +24,18 @@ it('leads with the buy candidate, then inventory, comps and archive', () => {
   expect($('#archive').text()).toContain('AE');
   expect($('[data-property]').length).toBe(112);
   expect(html).toContain('Imported snapshot');
+});
+it('renders every live property exactly once as inventory grows', () => {
+  const current = liveState();
+  const added = structuredClone(current.listings[0]);
+  added.id = 'new-scan-regression';
+  added.address = '123 Test Ave N';
+  added.lifecycle = 'needs_verification';
+  current.listings.push(added);
+  const $ = load(renderDashboard(current, null));
+  const renderedIds = $('[data-property]').map((_, el) => $(el).attr('id')).get();
+  expect(renderedIds.sort()).toEqual(current.listings.map(row => `property-${row.id}`).sort());
+  expect($('#inventory').text()).toContain(added.address);
 });
 it('does not publish raw private notes or unsafe links and escapes public text', () => {
   const s = state();
