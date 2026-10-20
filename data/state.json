@@ -510,6 +510,21 @@
           "capturedAt": "2026-10-19T16:53:12.219Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:12.219Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274219%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4219  5TH AVE N\",\"zoning\":\"NTM-1\",\"reason\":\"NTM-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274219%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4219 5TH AVENUE N\",\"price\":345000,\"houseSf\":1950,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$177;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4219-5th-ave-n-saint-petersburg-fl-33713-47088190",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$177;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.273Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.273Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274219%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4219  5TH AVE N\",\"zoning\":\"NTM-1\",\"reason\":\"NTM-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274219%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -524,7 +539,7 @@
           "note": "[{\"id\":\"listing-f03565dde19e\",\"address\":\"4219 5th Ave N\",\"field\":\"price\",\"before\":365000,\"after\":345000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5502,
       "zoning": "NTM-1",
       "convertibleSpace": "Attached 2-car garage (2 covered spaces) + oversized bonus room + side porch · block, built 1952",
@@ -1030,6 +1045,21 @@
           "capturedAt": "2026-10-19T16:53:12.336Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:12.336Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273720%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"3720  4TH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5714.95744593}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273720%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3720 4TH AVENUE N\",\"price\":379900,\"houseSf\":1196,\"bedsBaths\":\"2/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1936;eightBitItem|traditional:Price/Sqft:$318;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3720-4th-ave-n-saint-petersburg-fl-33713-47151680",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1936;eightBitItem|traditional:Price/Sqft:$318;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.424Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.424Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273720%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"3720  4TH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5714.95744593}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273720%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -1043,7 +1073,7 @@
           "note": "[{\"id\":\"listing-9321a592d9f1\",\"address\":\"3720 4th Ave N\",\"field\":\"lotSf\",\"before\":5715,\"after\":5714.95744593}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5714.95744593,
       "zoning": "NT-2",
       "convertibleSpace": "Enclosed porch, wrap-around windows, alley-accessible garages · built 1936",
@@ -1891,6 +1921,21 @@
           "capturedAt": "2026-10-19T16:53:13.138Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.138Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274730%25BURLINGTON%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4730  BURLINGTON AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5518.38095886}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274730%25BURLINGTON%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4730 BURLINGTON AVENUE N\",\"price\":405000,\"houseSf\":1166,\"bedsBaths\":\"2/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$347;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4730-burlington-ave-n-saint-petersburg-fl-33713-47141518",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$347;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.368Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.368Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274730%25BURLINGTON%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4730  BURLINGTON AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5518.38095886}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274730%25BURLINGTON%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -1910,7 +1955,7 @@
           "note": "[{\"id\":\"listing-4bc62aabff0f\",\"address\":\"4730 Burlington Ave N\",\"field\":\"price\",\"before\":420000,\"after\":405000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5518.38095886,
       "zoning": "NT-2",
       "convertibleSpace": "Bonus room · renovated · absent from index 7 runs",
@@ -2319,6 +2364,21 @@
           "capturedAt": "2026-10-19T16:53:13.340Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.340Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273731%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"3731  6TH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":7101.78197764}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273731%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3731 6TH AVENUE N\",\"price\":415000,\"houseSf\":1143,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$363;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3731-6th-ave-n-saint-petersburg-fl-33713-380860423",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$363;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.624Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.624Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273731%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"3731  6TH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":7101.78197764}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273731%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -2337,7 +2397,7 @@
           "note": "[{\"id\":\"listing-73ad9fe8d320\",\"address\":\"3731 6th Ave N\",\"field\":\"price\",\"before\":420000,\"after\":415000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 7101.78197764,
       "zoning": "NT-2",
       "convertibleSpace": "Bonus area",
@@ -2736,6 +2796,21 @@
           "capturedAt": "2026-10-19T16:53:13.618Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.618Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273500%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":8,\"matchedAddress\":\"3500  6TH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":8258.63056398}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273500%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3500 6TH AVENUE N\",\"price\":417777,\"houseSf\":1089,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$384;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3500-6th-ave-n-saint-petersburg-fl-33713-47087801",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$384;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.882Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.882Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273500%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":8,\"matchedAddress\":\"3500  6TH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":8258.63056398}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273500%256TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -2754,7 +2829,7 @@
           "note": "[{\"id\":\"listing-594da7031f8f\",\"address\":\"3500 6th Ave N\",\"field\":\"price\",\"before\":424777,\"after\":417777}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 8258.63056398,
       "zoning": "NT-2",
       "convertibleSpace": "Attached garage · 1940s bungalow",
@@ -3563,6 +3638,21 @@
           "capturedAt": "2026-10-19T16:53:12.103Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:12.103Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274227%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"4227  2ND AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":8369.82567238}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274227%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4227 2ND AVENUE S\",\"price\":310000,\"houseSf\":1820,\"bedsBaths\":\"3/1.5\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1932;eightBitItem|traditional:Price/Sqft:$170;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4227-2nd-ave-s-saint-petersburg-fl-33711-47141959",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1932;eightBitItem|traditional:Price/Sqft:$170;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.144Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.144Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274227%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"4227  2ND AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":8369.82567238}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274227%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -3576,7 +3666,7 @@
           "note": "[{\"id\":\"listing-6c47f9f2b47f\",\"address\":\"4227 2nd Ave S\",\"field\":\"lotSf\",\"before\":8370,\"after\":8369.82567238}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 8369.82567238,
       "zoning": "NT-2"
     },
@@ -4012,6 +4102,21 @@
           "capturedAt": "2026-10-19T16:53:12.806Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:12.806Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274110%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"4110  3RD AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6349.9995483}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274110%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4110 3RD AVENUE S\",\"price\":399900,\"houseSf\":1237,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1951;eightBitItem|traditional:Price/Sqft:$323;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4110-3rd-ave-s-saint-petersburg-fl-33711-47141914",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1951;eightBitItem|traditional:Price/Sqft:$323;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.974Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.974Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274110%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"4110  3RD AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6349.9995483}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274110%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -4025,7 +4130,7 @@
           "note": "[{\"id\":\"listing-fe7b0ee6ceb2\",\"address\":\"4110 3rd Ave S\",\"field\":\"lotSf\",\"before\":6350,\"after\":6349.9995483}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6349.9995483,
       "zoning": "NT-2"
     },
@@ -4192,6 +4297,21 @@
           "capturedAt": "2026-10-19T16:53:13.441Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.441Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274428%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4428  4TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5715.03363463}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274428%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4428 4TH AVE S\",\"price\":225000,\"houseSf\":1122,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$201;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4428-4th-ave-s-saint-petersburg-fl-33711-47142104",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$201;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.757Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.757Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274428%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4428  4TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5715.03363463}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274428%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -4205,7 +4325,7 @@
           "note": "[{\"id\":\"listing-3286c4856a0a\",\"address\":\"4428 4th Ave S\",\"field\":\"lotSf\",\"before\":5715,\"after\":5715.03363463}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5715.03363463,
       "zoning": "NT-2"
     },
@@ -4374,7 +4494,7 @@
     {
       "id": "listing-33c9488bdf0d",
       "address": "3468 9th Ave N",
-      "price": 360000,
+      "price": 350000,
       "bedsBaths": "3/2",
       "houseSf": 1030,
       "maxAdu": 690,
@@ -4759,6 +4879,21 @@
           "capturedAt": "2026-10-19T16:53:13.833Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.833Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273468%259TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"3468  9TH AVE N\",\"zoning\":\"NTM-1\",\"reason\":\"NTM-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273468%259TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3468 9TH AVENUE N\",\"price\":350000,\"houseSf\":1030,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1953;eightBitItem|traditional:Price/Sqft:$340;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3468-9th-ave-n-saint-petersburg-fl-33713-47087715",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1953;eightBitItem|traditional:Price/Sqft:$340;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:28.223Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:28.223Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273468%259TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"3468  9TH AVE N\",\"zoning\":\"NTM-1\",\"reason\":\"NTM-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273468%259TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -4771,9 +4906,14 @@
           "at": "2026-09-27T15:46:45.260Z",
           "price": 360000,
           "note": "[{\"id\":\"listing-33c9488bdf0d\",\"address\":\"3468 9th Ave N\",\"field\":\"price\",\"before\":380000,\"after\":360000}]"
+        },
+        {
+          "at": "2026-10-20T14:52:43.305Z",
+          "price": 350000,
+          "note": "[{\"id\":\"listing-33c9488bdf0d\",\"address\":\"3468 9th Ave N\",\"field\":\"price\",\"before\":360000,\"after\":350000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "zoning": "NTM-1"
     },
     {
@@ -5341,6 +5481,21 @@
           "capturedAt": "2026-10-19T16:53:14.446Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:14.446Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273920%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"3920  5TH AVE N\",\"zoning\":\"CRT-1\",\"reason\":\"CRT-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273920%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3920 5TH AVENUE N\",\"price\":339000,\"houseSf\":884,\"bedsBaths\":\"2/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$383;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3920-5th-ave-n-saint-petersburg-fl-33713-47151890",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$383;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:29.149Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:29.149Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273920%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"3920  5TH AVE N\",\"zoning\":\"CRT-1\",\"reason\":\"CRT-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273920%255TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -5355,7 +5510,7 @@
           "note": "[{\"id\":\"listing-513972e81d2a\",\"address\":\"3920 5th Ave N\",\"field\":\"price\",\"before\":349000,\"after\":339000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "zoning": "CRT-1"
     },
     {
@@ -7170,6 +7325,29 @@
           "detail": "{\"address\":\"1234 13TH AVENUE S\",\"price\":410000,\"houseSf\":1240,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$331;\"}",
           "sourceUrl": "https://www.trulia.com/home/1234-13th-ave-s-saint-petersburg-fl-33705-47182098",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$331;"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:21.596Z",
+          "detail": "{\"address\":\"1234 13TH AVENUE S\",\"price\":410000,\"houseSf\":1240,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$331;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1234-13th-ave-s-saint-petersburg-fl-33705-47182098",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$331;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.101Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.101Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271234%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"1234  13TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5627.00202594}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271234%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1234 13TH AVENUE S\",\"price\":410000,\"houseSf\":1240,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$331;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1234-13th-ave-s-saint-petersburg-fl-33705-47182098",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$331;"
         }
       ],
       "history": [
@@ -7184,7 +7362,7 @@
           "note": "[{\"id\":\"listing-68823ce9a1ff\",\"address\":\"1234 13th Ave S\",\"field\":\"price\",\"before\":240000,\"after\":410000},{\"id\":\"listing-68823ce9a1ff\",\"address\":\"1234 13th Ave S\",\"field\":\"adu\",\"before\":\"unknown\",\"after\":\"yes\"},{\"id\":\"listing-68823ce9a1ff\",\"address\":\"1234 13th Ave S\",\"field\":\"lotSf\",\"before\":5627,\"after\":5627.00202594}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5627.00202594,
       "zoning": "NT-2"
     },
@@ -7737,6 +7915,29 @@
           "detail": "{\"address\":\"1120 11TH AVENUE S\",\"price\":299900,\"houseSf\":1237,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2005;eightBitItem|traditional:Price/Sqft:$242;\"}",
           "sourceUrl": "https://www.trulia.com/home/1120-11th-ave-s-saint-petersburg-fl-33705-68597427",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2005;eightBitItem|traditional:Price/Sqft:$242;"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:21.596Z",
+          "detail": "{\"address\":\"1120 11TH AVENUE S\",\"price\":299900,\"houseSf\":1237,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2005;eightBitItem|traditional:Price/Sqft:$242;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1120-11th-ave-s-saint-petersburg-fl-33705-68597427",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2005;eightBitItem|traditional:Price/Sqft:$242;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:25.851Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:25.851Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271120%2511TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"1120  11TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":7014.25475105}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271120%2511TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1120 11TH AVENUE S\",\"price\":299900,\"houseSf\":1237,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2005;eightBitItem|traditional:Price/Sqft:$242;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1120-11th-ave-s-saint-petersburg-fl-33705-68597427",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2005;eightBitItem|traditional:Price/Sqft:$242;"
         }
       ],
       "history": [
@@ -7750,7 +7951,7 @@
           "note": "[{\"id\":\"listing-2b19eb5b3f8b\",\"address\":\"1120 11th Ave S\",\"field\":\"adu\",\"before\":\"unknown\",\"after\":\"yes\"},{\"id\":\"listing-2b19eb5b3f8b\",\"address\":\"1120 11th Ave S\",\"field\":\"lotSf\",\"before\":7014,\"after\":7014.25475105}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 7014.25475105,
       "zoning": "NT-2"
     },
@@ -8175,6 +8376,21 @@
           "capturedAt": "2026-10-19T16:53:20.825Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:20.825Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27650%2530TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"650  30TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":4702.91829023}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27650%2530TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"650 30TH AVENUE S\",\"price\":324999,\"houseSf\":1366,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1920;eightBitItem|traditional:Price/Sqft:$238;\"}",
+          "sourceUrl": "https://www.trulia.com/home/650-30th-ave-s-saint-petersburg-fl-33705-47244603",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1920;eightBitItem|traditional:Price/Sqft:$238;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:39.680Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:39.680Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27650%2530TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"650  30TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":4702.91829023}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27650%2530TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -8189,7 +8405,7 @@
           "note": "[{\"id\":\"listing-3b547ad54985\",\"address\":\"650 30th Ave S\",\"field\":\"price\",\"before\":339999,\"after\":324999},{\"id\":\"listing-3b547ad54985\",\"address\":\"650 30th Ave S\",\"field\":\"adu\",\"before\":\"unknown\",\"after\":\"yes\"},{\"id\":\"listing-3b547ad54985\",\"address\":\"650 30th Ave S\",\"field\":\"lotSf\",\"before\":4702.91,\"after\":4702.91829023}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 4702.91829023,
       "zoning": "NT-1"
     },
@@ -8595,6 +8811,21 @@
           "capturedAt": "2026-10-19T16:53:21.675Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:21.675Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27741%2528TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"741  28TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":13537.5606411}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27741%2528TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"741 28TH AVENUE S\",\"price\":385000,\"houseSf\":1490,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1951;eightBitItem|traditional:Lot Size:0.31 acres;eightBitItem|traditional:Price/Sqft:$258;\"}",
+          "sourceUrl": "https://www.trulia.com/home/741-28th-ave-s-saint-petersburg-fl-33705-47289984",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1951;eightBitItem|traditional:Lot Size:0.31 acres;eightBitItem|traditional:Price/Sqft:$258;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:40.560Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:40.560Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27741%2528TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"741  28TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":13537.5606411}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27741%2528TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -8608,7 +8839,7 @@
           "note": "[{\"id\":\"listing-b8c97d597984\",\"address\":\"741 28th Ave S\",\"field\":\"adu\",\"before\":\"unknown\",\"after\":\"yes\"},{\"id\":\"listing-b8c97d597984\",\"address\":\"741 28th Ave S\",\"field\":\"lotSf\",\"before\":13537.56,\"after\":13537.5606411}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 13537.5606411,
       "zoning": "NT-1"
     },
@@ -9557,6 +9788,21 @@
           "capturedAt": "2026-10-19T16:53:13.023Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.023Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2550  10TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6239.98945925}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-10-20T14:52:23.187Z",
+          "detail": "{\"address\":\"2550 10th Ave S\",\"price\":260000,\"houseSf\":1180,\"bedsBaths\":\"4/2\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2550-10th-ave-s/pid_72219629/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.236Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.236Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2550  10TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6239.98945925}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -9575,7 +9821,7 @@
           "note": "[{\"id\":\"listing-65bf2e83fb1e\",\"address\":\"2550 10th Ave S\",\"field\":\"price\",\"before\":275000,\"after\":260000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6239.98945925,
       "zoning": "NT-1",
       "convertibleSpace": "none"
@@ -10098,6 +10344,21 @@
           "capturedAt": "2026-10-19T16:53:13.244Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.244Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271532%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"1532  13TH ST S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6616.65824757}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271532%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:21.596Z",
+          "detail": "{\"address\":\"1532 13TH STREET S\",\"price\":300000,\"houseSf\":1156,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1934;eightBitItem|traditional:Price/Sqft:$260;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1532-13th-st-s-saint-petersburg-fl-33705-81409354",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1934;eightBitItem|traditional:Price/Sqft:$260;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:27.500Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:27.500Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271532%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"1532  13TH ST S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6616.65824757}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271532%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -10122,7 +10383,7 @@
           "note": "[{\"id\":\"listing-8a264d96fdf6\",\"address\":\"1532 13th St S\",\"field\":\"price\",\"before\":299000,\"after\":300000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6616.65824757,
       "zoning": "NT-2"
     },
@@ -10679,6 +10940,21 @@
           "capturedAt": "2026-10-19T16:53:13.938Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.938Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2717  13TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5913.03141653}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-10-20T14:52:23.187Z",
+          "detail": "{\"address\":\"2717 13th Ave S\",\"price\":194999,\"houseSf\":1020,\"bedsBaths\":\"3/1\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2717-13th-ave-s/pid_70548369/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:28.366Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:28.366Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2717  13TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5913.03141653}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -10693,7 +10969,7 @@
           "note": "[{\"id\":\"listing-bf648e9eb286\",\"address\":\"2717 13th Ave S\",\"field\":\"adu\",\"before\":\"unknown\",\"after\":\"yes\"},{\"id\":\"listing-bf648e9eb286\",\"address\":\"2717 13th Ave S\",\"field\":\"lifecycle\",\"before\":\"needs_verification\",\"after\":\"active\"},{\"id\":\"listing-bf648e9eb286\",\"address\":\"2717 13th Ave S\",\"field\":\"lotSf\",\"before\":5913,\"after\":5913.03141653}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5913.03141653,
       "zoning": "NT-1"
     },
@@ -11499,6 +11775,21 @@
           "capturedAt": "2026-10-19T16:53:22.102Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:22.102Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272324%25OAKDALE%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2324  OAKDALE ST S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5917.15525468}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272324%25OAKDALE%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"2324 OAKDALE STREET S\",\"price\":422000,\"houseSf\":1200,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2003;eightBitItem|traditional:Price/Sqft:$352;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2324-oakdale-st-s-saint-petersburg-fl-33705-47245218",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2003;eightBitItem|traditional:Price/Sqft:$352;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:41.158Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:41.158Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272324%25OAKDALE%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2324  OAKDALE ST S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5917.15525468}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272324%25OAKDALE%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -11518,7 +11809,7 @@
           "note": "[{\"id\":\"listing-2e24d85d562e\",\"address\":\"2324 Oakdale St S\",\"field\":\"price\",\"before\":428500,\"after\":422000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5917.15525468,
       "zoning": "NT-2",
       "convertibleSpace": "none"
@@ -12636,6 +12927,14 @@
           "detail": "{\"address\":\"560 62ND AVENUE S\",\"price\":409500,\"houseSf\":1369,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Price/Sqft:$299;\"}",
           "sourceUrl": "https://www.trulia.com/home/560-62nd-ave-s-saint-petersburg-fl-33705-47016096",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Price/Sqft:$299;"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"560 62ND AVENUE S\",\"price\":409500,\"houseSf\":1369,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Price/Sqft:$299;\"}",
+          "sourceUrl": "https://www.trulia.com/home/560-62nd-ave-s-saint-petersburg-fl-33705-47016096",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Price/Sqft:$299;"
         }
       ],
       "history": [
@@ -12650,7 +12949,7 @@
           "note": "[{\"id\":\"listing-71d2f1628445\",\"address\":\"560 62nd Ave S\",\"field\":\"price\",\"before\":425000,\"after\":409500}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 8486.17,
       "zoning": "NS-1"
     },
@@ -13256,6 +13555,21 @@
           "capturedAt": "2026-10-19T16:53:12.598Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:12.598Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274026%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":4,\"matchedAddress\":\"4026  4TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":11429.9690693}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274026%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4026 4TH AVENUE S\",\"price\":389000,\"houseSf\":1673,\"bedsBaths\":\"4/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1930;eightBitItem|traditional:Lot Size:0.26 acres;eightBitItem|traditional:Price/Sqft:$233;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4026-4th-ave-s-saint-petersburg-fl-33711-47141872",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1930;eightBitItem|traditional:Lot Size:0.26 acres;eightBitItem|traditional:Price/Sqft:$233;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.700Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.700Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274026%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":4,\"matchedAddress\":\"4026  4TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":11429.9690693}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274026%254TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -13275,7 +13589,7 @@
           "note": "[{\"id\":\"listing-427c5d658146\",\"address\":\"4026 4th Ave S\",\"field\":\"price\",\"before\":400000,\"after\":389000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 11429.9690693,
       "zoning": "NT-2",
       "convertibleSpace": "none"
@@ -13831,6 +14145,29 @@
           "detail": "{\"address\":\"1527 13TH STREET S\",\"price\":300000,\"houseSf\":1231,\"bedsBaths\":\"2/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$244;\"}",
           "sourceUrl": "https://www.trulia.com/home/1527-13th-st-s-saint-petersburg-fl-33705-337933440",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$244;"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:21.596Z",
+          "detail": "{\"address\":\"1527 13TH STREET S\",\"price\":300000,\"houseSf\":1231,\"bedsBaths\":\"2/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$244;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1527-13th-st-s-saint-petersburg-fl-33705-337933440",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$244;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.000Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.000Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271527%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"1527  13TH ST S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6581.60070887}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271527%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1527 13TH STREET S\",\"price\":300000,\"houseSf\":1231,\"bedsBaths\":\"2/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$244;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1527-13th-st-s-saint-petersburg-fl-33705-337933440",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$244;"
         }
       ],
       "history": [
@@ -13851,7 +14188,7 @@
           "note": "[{\"id\":\"listing-025314702db6\",\"address\":\"1527 13TH STREET S\",\"field\":\"price\",\"before\":329000,\"after\":300000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6581.60070887,
       "zoning": "NT-2"
     },
@@ -14297,6 +14634,21 @@
           "detail": "{\"address\":\"2629 14TH AVENUE S\",\"price\":385000,\"houseSf\":1860,\"bedsBaths\":\"7/3\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$207;\"}",
           "sourceUrl": "https://www.trulia.com/home/2629-14th-ave-s-saint-petersburg-fl-33712-47190878",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$207;"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-10-20T14:52:23.187Z",
+          "detail": "{\"address\":\"2629 14th Ave S\",\"price\":385000,\"houseSf\":1860,\"bedsBaths\":\"7/3\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2629-14th-ave-s/pid_73865172/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.561Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.561Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272629%2514TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2629  14TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5864.1415402}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272629%2514TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -14307,7 +14659,7 @@
           "note": "[{\"id\":\"listing-db6b4a574479\",\"address\":\"2629 14th Ave S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-db6b4a574479\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5864.1415402,
       "zoning": "NT-1"
     },
@@ -14719,6 +15071,21 @@
           "capturedAt": "2026-10-19T16:53:14.038Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:14.038Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274042%25DARTMOUTH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4042  DARTMOUTH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5715.16410925}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274042%25DARTMOUTH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"4042 DARTMOUTH AVENUE N\",\"price\":314900,\"houseSf\":1005,\"bedsBaths\":\"2/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1958;eightBitItem|traditional:Price/Sqft:$313;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4042-dartmouth-ave-n-saint-petersburg-fl-33713-47151932",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1958;eightBitItem|traditional:Price/Sqft:$313;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:28.551Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:28.551Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274042%25DARTMOUTH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4042  DARTMOUTH AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5715.16410925}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274042%25DARTMOUTH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -14734,7 +15101,7 @@
           "note": "[{\"id\":\"listing-e2cefbaea930\",\"address\":\"4042 DARTMOUTH AVENUE N\",\"field\":\"price\",\"before\":319900,\"after\":314900}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5715.16410925,
       "zoning": "NT-2"
     },
@@ -14931,6 +15298,14 @@
           "detail": "{\"address\":\"2548 Langdon Ave S\",\"price\":310000,\"houseSf\":922,\"bedsBaths\":\"3/2\",\"snippet\":\"\"}",
           "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2548-langdon-ave-s/pid_73606043/",
           "sourceText": ""
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-10-20T14:52:23.187Z",
+          "detail": "{\"address\":\"2548 Langdon Ave S\",\"price\":310000,\"houseSf\":922,\"bedsBaths\":\"3/2\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2548-langdon-ave-s/pid_73606043/",
+          "sourceText": ""
         }
       ],
       "history": [
@@ -14946,7 +15321,7 @@
           "note": "[{\"id\":\"listing-13cdefa17255\",\"address\":\"2548 Langdon Ave S\",\"field\":\"price\",\"before\":319000,\"after\":310000}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z"
+      "updatedAt": "2026-10-20T14:52:43.305Z"
     },
     {
       "id": "listing-7359add03a04",
@@ -15971,6 +16346,21 @@
           "capturedAt": "2026-10-19T16:53:21.049Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:21.049Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274365%25TROUT%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4365  TROUT DR SE\",\"zoning\":\"NS-1\",\"reason\":\"NS-1  zoning with minimum lot size of 10,000 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":10562.2519641}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274365%25TROUT%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"4365 TROUT DRIVE SE\",\"price\":345000,\"houseSf\":1250,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1990;eightBitItem|traditional:Price/Sqft:$276;\"}",
+          "sourceUrl": "https://www.trulia.com/home/4365-trout-dr-se-saint-petersburg-fl-33705-46991893",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1990;eightBitItem|traditional:Price/Sqft:$276;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:39.850Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:39.850Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274365%25TROUT%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"4365  TROUT DR SE\",\"zoning\":\"NS-1\",\"reason\":\"NS-1  zoning with minimum lot size of 10,000 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":10562.2519641}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%274365%25TROUT%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -15981,7 +16371,7 @@
           "note": "[{\"id\":\"listing-2866fc80d234\",\"address\":\"4365 TROUT DRIVE SE\",\"field\":\"added\",\"before\":null,\"after\":\"listing-2866fc80d234\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 10562.2519641,
       "zoning": "NS-1"
     },
@@ -16324,6 +16714,21 @@
           "capturedAt": "2026-10-19T16:53:21.449Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:21.449Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271438%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"1438  10TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5507.16497991}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271438%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1438 10TH AVENUE S\",\"price\":365000,\"houseSf\":1212,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$301;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1438-10th-ave-s-saint-petersburg-fl-33705-47181220",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$301;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:40.297Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:40.297Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271438%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"1438  10TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5507.16497991}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271438%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -16334,7 +16739,7 @@
           "note": "[{\"id\":\"listing-649cd9a99e59\",\"address\":\"1438 10TH AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-649cd9a99e59\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5507.16497991,
       "zoning": "NT-2"
     },
@@ -16910,6 +17315,21 @@
           "capturedAt": "2026-10-19T16:53:22.258Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:22.258Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27812%2537TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"812  37TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":7625.46933386}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27812%2537TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"812 37TH AVENUE S\",\"price\":375000,\"houseSf\":1181,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2003;eightBitItem|traditional:Price/Sqft:$318;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/812-37th-ave-s-saint-petersburg-fl-33705-47244733",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2003;eightBitItem|traditional:Price/Sqft:$318;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:41.284Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:41.284Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27812%2537TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"812  37TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":7625.46933386}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27812%2537TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -16920,7 +17340,7 @@
           "note": "[{\"id\":\"listing-45f0ba23f11b\",\"address\":\"812 37TH AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-45f0ba23f11b\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 7625.46933386,
       "zoning": "NT-1"
     },
@@ -17263,6 +17683,21 @@
           "capturedAt": "2026-10-19T16:53:22.618Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:22.618Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271111%25ASTURIA%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"1111  ASTURIA WAY S\",\"zoning\":\"NS-2\",\"reason\":\"NS-2  zoning with minimum lot size of 10,000 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":16437.7532002}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271111%25ASTURIA%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1111 ASTURIA WAY S\",\"price\":385000,\"houseSf\":1152,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Lot Size:0.38 acres;eightBitItem|traditional:Price/Sqft:$334;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1111-asturia-way-s-saint-petersburg-fl-33705-46953177",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1955;eightBitItem|traditional:Lot Size:0.38 acres;eightBitItem|traditional:Price/Sqft:$334;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:41.532Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:41.532Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271111%25ASTURIA%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"1111  ASTURIA WAY S\",\"zoning\":\"NS-2\",\"reason\":\"NS-2  zoning with minimum lot size of 10,000 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":16437.7532002}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271111%25ASTURIA%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -17273,7 +17708,7 @@
           "note": "[{\"id\":\"listing-9f3bce73b45b\",\"address\":\"1111 ASTURIA WAY S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-9f3bce73b45b\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 16437.7532002,
       "zoning": "NS-2"
     },
@@ -19418,6 +19853,29 @@
           "detail": "{\"address\":\"1005 16TH AVENUE S\",\"price\":249000,\"houseSf\":1589,\"bedsBaths\":\"3/2.5\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$157;\"}",
           "sourceUrl": "https://www.trulia.com/home/1005-16th-ave-s-saint-petersburg-fl-33705-81403179",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$157;"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:21.596Z",
+          "detail": "{\"address\":\"1005 16TH AVENUE S\",\"price\":249000,\"houseSf\":1589,\"bedsBaths\":\"3/2.5\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$157;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1005-16th-ave-s-saint-petersburg-fl-33705-81403179",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$157;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:25.367Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:25.367Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271005%2516TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"1005  16TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6524.81292206}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271005%2516TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1005 16TH AVENUE S\",\"price\":249000,\"houseSf\":1589,\"bedsBaths\":\"3/2.5\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$157;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1005-16th-ave-s-saint-petersburg-fl-33705-81403179",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$157;"
         }
       ],
       "history": [
@@ -19428,7 +19886,7 @@
           "note": "[{\"id\":\"listing-ca7bdce987f2\",\"address\":\"1005 16TH AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-ca7bdce987f2\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6524.81292206,
       "zoning": "NT-2"
     },
@@ -19666,6 +20124,21 @@
           "capturedAt": "2026-10-19T16:53:20.430Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:20.430Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272003%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2003  10TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5187.7501121}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272003%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"2003 10TH STREET S\",\"price\":267000,\"houseSf\":1620,\"bedsBaths\":\"4/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$165;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2003-10th-st-s-saint-petersburg-fl-33705-47181846",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$165;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:39.213Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:39.213Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272003%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2003  10TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5187.7501121}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272003%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -19676,7 +20149,7 @@
           "note": "[{\"id\":\"listing-f35b50d15225\",\"address\":\"2003 10TH STREET S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-f35b50d15225\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5187.7501121,
       "zoning": "NT-1"
     },
@@ -19899,6 +20372,21 @@
           "capturedAt": "2026-10-19T16:53:21.343Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:21.343Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272230%25E%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":17,\"matchedAddress\":\"2230 E HARBOR DR S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6103.74874572}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272230%25E%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"2230 E HARBOR DRIVE S\",\"price\":355000,\"houseSf\":1390,\"bedsBaths\":\"2/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$255;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2230-e-harbor-dr-s-saint-petersburg-fl-33705-47245211",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1940;eightBitItem|traditional:Price/Sqft:$255;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:40.110Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:40.110Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272230%25E%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":17,\"matchedAddress\":\"2230 E HARBOR DR S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6103.74874572}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272230%25E%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -19909,7 +20397,7 @@
           "note": "[{\"id\":\"listing-07e46a0c2bd7\",\"address\":\"2230 E HARBOR DRIVE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-07e46a0c2bd7\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6103.74874572,
       "zoning": "NT-1"
     },
@@ -20205,6 +20693,29 @@
           "capturedAt": "2026-10-19T16:53:13.723Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:13.723Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272620%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"2620  13TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5589.97043155}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272620%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-10-20T14:52:23.187Z",
+          "detail": "{\"address\":\"2620 13th Ave S\",\"price\":284900,\"houseSf\":1075,\"bedsBaths\":\"3/2\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2620-13th-ave-s/pid_74133431/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:28.094Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:28.094Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272620%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":3,\"matchedAddress\":\"2620  13TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5589.97043155}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272620%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:32.915Z",
+          "detail": "{\"address\":\"2620 13TH AVENUE S\",\"price\":284900,\"houseSf\":1075,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2004;eightBitItem|traditional:Price/Sqft:$265;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2620-13th-ave-s-saint-petersburg-fl-33712-66195191",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2004;eightBitItem|traditional:Price/Sqft:$265;"
         }
       ],
       "history": [
@@ -20215,7 +20726,7 @@
           "note": "[{\"id\":\"listing-c8566588987d\",\"address\":\"2620 13th Ave S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-c8566588987d\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5589.97043155,
       "zoning": "NT-1"
     },
@@ -20958,6 +21469,21 @@
           "capturedAt": "2026-10-19T16:53:23.800Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:23.800Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272452%2517TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2452  17TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5226.63696291}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272452%2517TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:32.915Z",
+          "detail": "{\"address\":\"2452 17TH AVENUE S\",\"price\":329900,\"houseSf\":1100,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$300;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2452-17th-ave-s-saint-petersburg-fl-33712-47189678",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$300;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:42.944Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:42.944Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272452%2517TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2452  17TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5226.63696291}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272452%2517TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -20973,7 +21499,7 @@
           "note": "[{\"id\":\"listing-176425b1c481\",\"address\":\"2452 17TH AVENUE S\",\"field\":\"price\",\"before\":339900,\"after\":329900}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5226.63696291,
       "zoning": "NT-1"
     },
@@ -21192,6 +21718,29 @@
           "detail": "{\"address\":\"1034 16TH AVENUE S\",\"price\":399000,\"houseSf\":1420,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$281;\"}",
           "sourceUrl": "https://www.trulia.com/home/1034-16th-ave-s-saint-petersburg-fl-33705-47182215",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$281;"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:21.596Z",
+          "detail": "{\"address\":\"1034 16TH AVENUE S\",\"price\":399000,\"houseSf\":1420,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$281;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1034-16th-ave-s-saint-petersburg-fl-33705-47182215",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$281;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:26.832Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:26.832Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271034%2516TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":4,\"matchedAddress\":\"1034  16TH AVE S\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6260.81719467}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271034%2516TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"1034 16TH AVENUE S\",\"price\":399000,\"houseSf\":1420,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$281;\"}",
+          "sourceUrl": "https://www.trulia.com/home/1034-16th-ave-s-saint-petersburg-fl-33705-47182215",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1925;eightBitItem|traditional:Price/Sqft:$281;"
         }
       ],
       "history": [
@@ -21202,7 +21751,7 @@
           "note": "[{\"id\":\"listing-0c471ba40ca3\",\"address\":\"1034 16TH AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-0c471ba40ca3\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6260.81719467,
       "zoning": "NT-2"
     },
@@ -21305,6 +21854,21 @@
           "capturedAt": "2026-10-19T16:53:14.136Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:14.136Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273700%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":7,\"matchedAddress\":\"3700  2ND AVE N\",\"zoning\":\"NTM-1\",\"reason\":\"NTM-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273700%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3700 2ND AVENUE N\",\"price\":299900,\"houseSf\":976,\"bedsBaths\":\"2/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1942;eightBitItem|traditional:Price/Sqft:$307;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3700-2nd-ave-n-saint-petersburg-fl-33713-47151196",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1942;eightBitItem|traditional:Price/Sqft:$307;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:28.762Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:28.762Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273700%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":7,\"matchedAddress\":\"3700  2ND AVE N\",\"zoning\":\"NTM-1\",\"reason\":\"NTM-1 Zoning with an Existing Single-Family Detached Home\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":null,\"areaNote\":\"Qualifies by zoning; lot area not applicable\"}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273700%252ND%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21315,7 +21879,7 @@
           "note": "[{\"id\":\"listing-66a1ce1220e4\",\"address\":\"3700 2ND AVENUE N\",\"field\":\"added\",\"before\":null,\"after\":\"listing-66a1ce1220e4\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "zoning": "NTM-1"
     },
     {
@@ -21508,6 +22072,21 @@
           "capturedAt": "2026-10-19T16:53:23.937Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:23.937Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272354%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2354  10TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5422.00227263}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272354%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"2354 10TH STREET S\",\"price\":245000,\"houseSf\":1098,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1922;eightBitItem|traditional:Price/Sqft:$223;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2354-10th-st-s-saint-petersburg-fl-33705-47289754",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1922;eightBitItem|traditional:Price/Sqft:$223;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:43.060Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:43.060Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272354%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2354  10TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5422.00227263}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272354%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21518,7 +22097,7 @@
           "note": "[{\"id\":\"listing-d187bfa8b5ec\",\"address\":\"2354 10TH STREET S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-d187bfa8b5ec\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5422.00227263,
       "zoning": "NT-1"
     },
@@ -21606,6 +22185,21 @@
           "capturedAt": "2026-10-19T16:53:24.113Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:24.113Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272112%2525TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2112  25TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5934.21832986}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272112%2525TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:32.915Z",
+          "detail": "{\"address\":\"2112 25TH STREET S\",\"price\":305000,\"houseSf\":1094,\"bedsBaths\":\"3/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$279;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2112-25th-st-s-saint-petersburg-fl-33712-47189742",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$279;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:43.186Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:43.186Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272112%2525TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2112  25TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5934.21832986}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272112%2525TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21616,7 +22210,7 @@
           "note": "[{\"id\":\"listing-c619d0b12597\",\"address\":\"2112 25TH STREET S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-c619d0b12597\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5934.21832986,
       "zoning": "NT-1"
     },
@@ -21689,6 +22283,21 @@
           "capturedAt": "2026-10-19T16:53:14.238Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:14.238Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273545%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"3545  3RD AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6476.94739644}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273545%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:18.605Z",
+          "detail": "{\"address\":\"3545 3RD AVENUE N\",\"price\":255000,\"houseSf\":960,\"bedsBaths\":\"2/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1972;eightBitItem|traditional:Price/Sqft:$266;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/3545-3rd-ave-n-saint-petersburg-fl-33713-47151799",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1972;eightBitItem|traditional:Price/Sqft:$266;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:28.890Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:28.890Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273545%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"3545  3RD AVE N\",\"zoning\":\"NT-2\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6476.94739644}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%273545%253RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21699,7 +22308,7 @@
           "note": "[{\"id\":\"listing-290aa08ac6b6\",\"address\":\"3545 3RD AVENUE N\",\"field\":\"added\",\"before\":null,\"after\":\"listing-290aa08ac6b6\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6476.94739644,
       "zoning": "NT-2"
     },
@@ -21757,6 +22366,21 @@
           "capturedAt": "2026-10-19T16:53:20.546Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:20.546Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27665%2523RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"665  23RD AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6246.82924083}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27665%2523RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"665 23RD AVENUE S\",\"price\":299997,\"houseSf\":1275,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1947;eightBitItem|traditional:Price/Sqft:$235;\"}",
+          "sourceUrl": "https://www.trulia.com/home/665-23rd-ave-s-saint-petersburg-fl-33705-47244808",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1947;eightBitItem|traditional:Price/Sqft:$235;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:39.379Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:39.379Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27665%2523RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"665  23RD AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6246.82924083}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27665%2523RD%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21767,7 +22391,7 @@
           "note": "[{\"id\":\"listing-68e29bc8aac7\",\"address\":\"665 23RD AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-68e29bc8aac7\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6246.82924083,
       "zoning": "NT-1"
     },
@@ -21825,6 +22449,21 @@
           "capturedAt": "2026-10-19T16:53:23.329Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:23.329Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27811%2569TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"811  69TH AVE S\",\"zoning\":\"NS-2\",\"reason\":\"NS-2  zoning with minimum lot size of 10,000 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":10615.0599082}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27811%2569TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"811 69TH AVENUE S\",\"price\":325000,\"houseSf\":1114,\"bedsBaths\":\"2/1\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1959;eightBitItem|traditional:Price/Sqft:$292;eightBitItem|traditional:Parking:Garage;\"}",
+          "sourceUrl": "https://www.trulia.com/home/811-69th-ave-s-saint-petersburg-fl-33705-47016419",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1959;eightBitItem|traditional:Price/Sqft:$292;eightBitItem|traditional:Parking:Garage;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:42.364Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:42.364Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27811%2569TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"811  69TH AVE S\",\"zoning\":\"NS-2\",\"reason\":\"NS-2  zoning with minimum lot size of 10,000 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":10615.0599082}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27811%2569TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21835,7 +22474,7 @@
           "note": "[{\"id\":\"listing-5ff01cf86fea\",\"address\":\"811 69TH AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-5ff01cf86fea\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 10615.0599082,
       "zoning": "NS-2"
     },
@@ -21878,6 +22517,21 @@
           "capturedAt": "2026-10-19T16:53:20.275Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:20.275Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272011%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"2011  10TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5168.20188935}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272011%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"2011 10TH STREET S\",\"price\":256000,\"houseSf\":1310,\"bedsBaths\":\"4/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1941;eightBitItem|traditional:Price/Sqft:$195;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2011-10th-st-s-saint-petersburg-fl-33705-47181845",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1941;eightBitItem|traditional:Price/Sqft:$195;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:39.088Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:39.088Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272011%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":2,\"matchedAddress\":\"2011  10TH ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5168.20188935}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272011%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21888,7 +22542,7 @@
           "note": "[{\"id\":\"listing-118241d58a6e\",\"address\":\"2011 10TH STREET S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-118241d58a6e\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 5168.20188935,
       "zoning": "NT-1"
     },
@@ -21916,6 +22570,21 @@
           "capturedAt": "2026-10-19T16:53:20.134Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-19T16:53:20.134Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27936%2520TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"936  20TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6349.91257034}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27936%2520TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:29.283Z",
+          "detail": "{\"address\":\"936 20TH AVENUE S\",\"price\":140000,\"houseSf\":1494,\"bedsBaths\":\"3/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$94;\"}",
+          "sourceUrl": "https://www.trulia.com/home/936-20th-ave-s-saint-petersburg-fl-33705-47181263",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1948;eightBitItem|traditional:Price/Sqft:$94;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:38.765Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:38.765Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27936%2520TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"936  20TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6349.91257034}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%27936%2520TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -21926,8 +22595,46 @@
           "note": "[{\"id\":\"listing-af06fc363779\",\"address\":\"936 20TH AVENUE S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-af06fc363779\"}]"
         }
       ],
-      "updatedAt": "2026-10-19T16:53:24.323Z",
+      "updatedAt": "2026-10-20T14:52:43.305Z",
       "lotSf": 6349.91257034,
+      "zoning": "NT-1"
+    },
+    {
+      "id": "listing-854f564c6b1a",
+      "address": "2221 UNION STREET S",
+      "price": 199900,
+      "bedsBaths": "5/3",
+      "houseSf": 1650,
+      "maxAdu": 800,
+      "adu": "yes",
+      "lifecycle": "needs_verification",
+      "evidence": [
+        {
+          "kind": "listing",
+          "source": "Trulia",
+          "capturedAt": "2026-10-20T14:52:32.915Z",
+          "detail": "{\"address\":\"2221 UNION STREET S\",\"price\":199900,\"houseSf\":1650,\"bedsBaths\":\"5/3\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$121;\"}",
+          "sourceUrl": "https://www.trulia.com/home/2221-union-st-s-saint-petersburg-fl-33712-81403074",
+          "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1952;eightBitItem|traditional:Price/Sqft:$121;"
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-10-20T14:52:38.946Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-10-20T14:52:38.946Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272221%25UNION%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2221  UNION ST S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5490.68514531}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272221%25UNION%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-20T14:52:43.305Z",
+          "price": 199900,
+          "lifecycle": "needs_verification",
+          "note": "[{\"id\":\"listing-854f564c6b1a\",\"address\":\"2221 UNION STREET S\",\"field\":\"added\",\"before\":null,\"after\":\"listing-854f564c6b1a\"}]"
+        }
+      ],
+      "updatedAt": "2026-10-20T14:52:43.305Z",
+      "lotSf": 5490.68514531,
       "zoning": "NT-1"
     }
   ]
