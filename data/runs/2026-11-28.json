@@ -1,0 +1,310 @@
+{
+  "date": "2026-11-28",
+  "startedAt": "2026-11-28T18:02:16.401Z",
+  "completedAt": "2026-11-28T18:02:19.586Z",
+  "mode": "wide",
+  "gateReason": "Parcel self-test passed; fewer than three new eligible narrow candidates",
+  "dryRun": false,
+  "parcelSelfTest": {
+    "ok": true,
+    "parcel": {
+      "adu": "yes",
+      "ambiguous": false,
+      "checkedAt": "2026-11-28T18:02:16.742Z",
+      "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%271521%2512TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json",
+      "returnedCount": 1,
+      "matchedAddress": "1521  12TH ST S",
+      "zoning": "NT-2",
+      "reason": "NT Zoning and Greater or equal to 4,500 sq. ft.",
+      "criteria": "Meets criteria for ADU",
+      "lotSf": 6225.23341117
+    },
+    "passed": true
+  },
+  "sources": [
+    {
+      "mode": "narrow",
+      "candidates": [
+        {
+          "address": "2629 14th Ave S",
+          "price": 369000,
+          "houseSf": 1860,
+          "maxAdu": 800,
+          "bedsBaths": "7/3",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2629-14th-ave-s/pid_73865172/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-11-28T18:02:17.654Z",
+          "snippet": ""
+        },
+        {
+          "address": "2551 Langdon Ave S",
+          "price": 409999,
+          "houseSf": 1337,
+          "maxAdu": 800,
+          "bedsBaths": "4/2",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2551-langdon-ave-s/pid_74378199/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-11-28T18:02:17.654Z",
+          "snippet": ""
+        },
+        {
+          "address": "2550 10th Ave S",
+          "price": 260000,
+          "houseSf": 1180,
+          "maxAdu": 791,
+          "bedsBaths": "4/2",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2550-10th-ave-s/pid_72219629/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-11-28T18:02:17.654Z",
+          "snippet": ""
+        },
+        {
+          "address": "2717 13th Ave S",
+          "price": 194999,
+          "houseSf": 1020,
+          "maxAdu": 683,
+          "bedsBaths": "3/1",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2717-13th-ave-s/pid_70548369/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-11-28T18:02:17.654Z",
+          "snippet": ""
+        },
+        {
+          "address": "2548 Langdon Ave S",
+          "price": 310000,
+          "houseSf": 922,
+          "maxAdu": 618,
+          "bedsBaths": "3/2",
+          "propertyType": "single_family",
+          "source": "Coldwell Banker",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2548-langdon-ave-s/pid_73606043/",
+          "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-11-28T18:02:17.654Z",
+          "snippet": ""
+        }
+      ],
+      "sources": [
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg,Central_Oak_Park/",
+          "fetchedAt": "2026-11-28T18:02:17.205Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Homes.com",
+          "url": "https://www.homes.com/saint-petersburg-fl/central-oak-park-neighborhood/houses-for-sale/",
+          "fetchedAt": "2026-11-28T18:02:17.326Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg,Thirteenth_St_Heights/",
+          "fetchedAt": "2026-11-28T18:02:17.462Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/thirteenth-st-heights-saint-petersburg-fl/",
+          "fetchedAt": "2026-11-28T18:02:17.574Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Coldwell Banker",
+          "url": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+          "fetchedAt": "2026-11-28T18:02:17.654Z",
+          "candidates": [
+            {
+              "address": "2551 Langdon Ave S",
+              "price": 409999,
+              "houseSf": 1337,
+              "maxAdu": 800,
+              "bedsBaths": "4/2",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2551-langdon-ave-s/pid_74378199/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-11-28T18:02:17.654Z",
+              "snippet": ""
+            },
+            {
+              "address": "2629 14th Ave S",
+              "price": 369000,
+              "houseSf": 1860,
+              "maxAdu": 800,
+              "bedsBaths": "7/3",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2629-14th-ave-s/pid_73865172/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-11-28T18:02:17.654Z",
+              "snippet": ""
+            },
+            {
+              "address": "2548 Langdon Ave S",
+              "price": 310000,
+              "houseSf": 922,
+              "maxAdu": 618,
+              "bedsBaths": "3/2",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2548-langdon-ave-s/pid_73606043/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-11-28T18:02:17.654Z",
+              "snippet": ""
+            },
+            {
+              "address": "2550 10th Ave S",
+              "price": 260000,
+              "houseSf": 1180,
+              "maxAdu": 791,
+              "bedsBaths": "4/2",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2550-10th-ave-s/pid_72219629/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-11-28T18:02:17.654Z",
+              "snippet": ""
+            },
+            {
+              "address": "2717 13th Ave S",
+              "price": 194999,
+              "houseSf": 1020,
+              "maxAdu": 683,
+              "bedsBaths": "3/1",
+              "propertyType": "single_family",
+              "source": "Coldwell Banker",
+              "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2717-13th-ave-s/pid_70548369/",
+              "indexUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/wildwood-heights/",
+              "fetchedAt": "2026-11-28T18:02:17.654Z",
+              "snippet": ""
+            }
+          ],
+          "failure": null,
+          "pagesFetched": 1,
+          "rejected": 1
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg,Historic_Kenwood/",
+          "fetchedAt": "2026-11-28T18:02:18.570Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Homes.com",
+          "url": "https://www.homes.com/saint-petersburg-fl/historic-kenwood-neighborhood/houses-for-sale/",
+          "fetchedAt": "2026-11-28T18:02:18.647Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "mode": "wide",
+      "candidates": [],
+      "sources": [
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg/33705/",
+          "fetchedAt": "2026-11-28T18:02:19.169Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/saint-petersburg-fl-33705/",
+          "fetchedAt": "2026-11-28T18:02:19.252Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg/33712/",
+          "fetchedAt": "2026-11-28T18:02:19.320Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/saint-petersburg-fl-33712/",
+          "fetchedAt": "2026-11-28T18:02:19.401Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Trulia",
+          "url": "https://www.trulia.com/FL/Saint_Petersburg/33713/",
+          "fetchedAt": "2026-11-28T18:02:19.465Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        },
+        {
+          "source": "Zillow",
+          "url": "https://www.zillow.com/saint-petersburg-fl-33713/",
+          "fetchedAt": "2026-11-28T18:02:19.528Z",
+          "candidates": [],
+          "failure": "HTTP 403",
+          "pagesFetched": 1,
+          "rejected": 0
+        }
+      ],
+      "truncated": false
+    }
+  ],
+  "queriedAddresses": 5,
+  "matchedAddresses": 3,
+  "newEligibleNarrow": 0,
+  "changes": [],
+  "failures": [
+    "Trulia: HTTP 403",
+    "Homes.com: HTTP 403",
+    "Zillow: HTTP 403",
+    "Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "2551 Langdon Ave S: Unrecognized or missing CRITERIA verdict",
+    "2548 Langdon Ave S: Unrecognized or missing CRITERIA verdict",
+    "Analysis unavailable for 2629 14th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Parcel unavailable for 2551 Langdon Ave S: Unrecognized or missing CRITERIA verdict",
+    "Analysis unavailable for 2551 Langdon Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 2550 10th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Analysis unavailable for 2717 13th Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL",
+    "Parcel unavailable for 2548 Langdon Ave S: Unrecognized or missing CRITERIA verdict",
+    "Analysis unavailable for 2548 Langdon Ave S: Analysis unavailable: configure OPENAI_API_KEY and OPENAI_MODEL"
+  ],
+  "stateChanged": true,
+  "delistingEvaluated": false
+}

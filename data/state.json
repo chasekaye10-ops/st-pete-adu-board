@@ -17146,6 +17146,21 @@
           "capturedAt": "2026-11-27T19:24:22.510Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-11-27T19:24:22.510Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2550  10TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6239.98945925}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-11-28T18:02:17.654Z",
+          "detail": "{\"address\":\"2550 10th Ave S\",\"price\":260000,\"houseSf\":1180,\"bedsBaths\":\"4/2\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2550-10th-ave-s/pid_72219629/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-11-28T18:02:18.894Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-11-28T18:02:18.894Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2550  10TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":6239.98945925}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272550%2510TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -17164,7 +17179,7 @@
           "note": "[{\"id\":\"listing-65bf2e83fb1e\",\"address\":\"2550 10th Ave S\",\"field\":\"price\",\"before\":275000,\"after\":260000}]"
         }
       ],
-      "updatedAt": "2026-11-27T19:24:32.822Z",
+      "updatedAt": "2026-11-28T18:02:19.586Z",
       "lotSf": 6239.98945925,
       "zoning": "NT-1",
       "convertibleSpace": "none"
@@ -19353,6 +19368,21 @@
           "capturedAt": "2026-11-27T19:24:22.865Z",
           "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-11-27T19:24:22.865Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2717  13TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5913.03141653}",
           "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-11-28T18:02:17.654Z",
+          "detail": "{\"address\":\"2717 13th Ave S\",\"price\":194999,\"houseSf\":1020,\"bedsBaths\":\"3/1\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2717-13th-ave-s/pid_70548369/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-11-28T18:02:18.983Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-11-28T18:02:18.983Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2717  13TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5913.03141653}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272717%2513TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -19367,7 +19397,7 @@
           "note": "[{\"id\":\"listing-bf648e9eb286\",\"address\":\"2717 13th Ave S\",\"field\":\"adu\",\"before\":\"unknown\",\"after\":\"yes\"},{\"id\":\"listing-bf648e9eb286\",\"address\":\"2717 13th Ave S\",\"field\":\"lifecycle\",\"before\":\"needs_verification\",\"after\":\"active\"},{\"id\":\"listing-bf648e9eb286\",\"address\":\"2717 13th Ave S\",\"field\":\"lotSf\",\"before\":5913,\"after\":5913.03141653}]"
         }
       ],
-      "updatedAt": "2026-11-27T19:24:32.822Z",
+      "updatedAt": "2026-11-28T18:02:19.586Z",
       "lotSf": 5913.03141653,
       "zoning": "NT-1"
     },
@@ -25051,6 +25081,21 @@
           "detail": "{\"address\":\"2629 14TH AVENUE S\",\"price\":369000,\"houseSf\":1860,\"bedsBaths\":\"7/3\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$198;\"}",
           "sourceUrl": "https://www.trulia.com/home/2629-14th-ave-s-saint-petersburg-fl-33712-47190878",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:1954;eightBitItem|traditional:Price/Sqft:$198;"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-11-28T18:02:17.654Z",
+          "detail": "{\"address\":\"2629 14th Ave S\",\"price\":369000,\"houseSf\":1860,\"bedsBaths\":\"7/3\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2629-14th-ave-s/pid_73865172/",
+          "sourceText": ""
+        },
+        {
+          "kind": "parcel",
+          "source": "City parcel lookup",
+          "capturedAt": "2026-11-28T18:02:18.735Z",
+          "detail": "{\"adu\":\"yes\",\"ambiguous\":false,\"checkedAt\":\"2026-11-28T18:02:18.735Z\",\"url\":\"https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272629%2514TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json\",\"returnedCount\":1,\"matchedAddress\":\"2629  14TH AVE S\",\"zoning\":\"NT-1\",\"reason\":\"NT Zoning and Greater or equal to 4,500 sq. ft.\",\"criteria\":\"Meets criteria for ADU\",\"lotSf\":5864.1415402}",
+          "sourceUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/NT_Zoning_ADU/FeatureServer/0/query?where=ADDRESS%20LIKE%20%272629%2514TH%25%27&outFields=ADDRESS,ZONING,NTCRIT,SQFT,CRITERIA&returnGeometry=false&f=json"
         }
       ],
       "history": [
@@ -25066,7 +25111,7 @@
           "note": "[{\"id\":\"listing-db6b4a574479\",\"address\":\"2629 14th Ave S\",\"field\":\"price\",\"before\":385000,\"after\":369000}]"
         }
       ],
-      "updatedAt": "2026-11-27T19:24:32.822Z",
+      "updatedAt": "2026-11-28T18:02:19.586Z",
       "lotSf": 5864.1415402,
       "zoning": "NT-1"
     },
@@ -26290,6 +26335,14 @@
           "detail": "{\"address\":\"2548 Langdon Ave S\",\"price\":310000,\"houseSf\":922,\"bedsBaths\":\"3/2\",\"snippet\":\"\"}",
           "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2548-langdon-ave-s/pid_73606043/",
           "sourceText": ""
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-11-28T18:02:17.654Z",
+          "detail": "{\"address\":\"2548 Langdon Ave S\",\"price\":310000,\"houseSf\":922,\"bedsBaths\":\"3/2\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2548-langdon-ave-s/pid_73606043/",
+          "sourceText": ""
         }
       ],
       "history": [
@@ -26305,7 +26358,7 @@
           "note": "[{\"id\":\"listing-13cdefa17255\",\"address\":\"2548 Langdon Ave S\",\"field\":\"price\",\"before\":319000,\"after\":310000}]"
         }
       ],
-      "updatedAt": "2026-11-27T19:24:32.822Z"
+      "updatedAt": "2026-11-28T18:02:19.586Z"
     },
     {
       "id": "listing-7359add03a04",
@@ -40534,6 +40587,14 @@
           "detail": "{\"address\":\"2551 LANGDON AVENUE S\",\"price\":409999,\"houseSf\":1337,\"bedsBaths\":\"4/2\",\"snippet\":\"eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2024;eightBitItem|traditional:Price/Sqft:$307;\"}",
           "sourceUrl": "https://www.trulia.com/home/2551-langdon-ave-s-saint-petersburg-fl-33712-103497868",
           "sourceText": "eight bits of info|show;eightBitItem|traditional:Property Type:Single-Family Home;eightBitItem|traditional:Year Built:2024;eightBitItem|traditional:Price/Sqft:$307;"
+        },
+        {
+          "kind": "listing",
+          "source": "Coldwell Banker",
+          "capturedAt": "2026-11-28T18:02:17.654Z",
+          "detail": "{\"address\":\"2551 Langdon Ave S\",\"price\":409999,\"houseSf\":1337,\"bedsBaths\":\"4/2\",\"snippet\":\"\"}",
+          "sourceUrl": "https://www.coldwellbankerhomes.com/fl/saint-petersburg/2551-langdon-ave-s/pid_74378199/",
+          "sourceText": ""
         }
       ],
       "history": [
@@ -40549,7 +40610,7 @@
           "note": "[{\"id\":\"listing-a45ceab629ae\",\"address\":\"2551 Langdon Ave S\",\"field\":\"price\",\"before\":419999,\"after\":409999}]"
         }
       ],
-      "updatedAt": "2026-11-27T19:24:32.822Z"
+      "updatedAt": "2026-11-28T18:02:19.586Z"
     },
     {
       "id": "listing-03bda6c0e654",
